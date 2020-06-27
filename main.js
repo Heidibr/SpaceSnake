@@ -73,8 +73,6 @@ function createSnakeBody(){
     var geometry;
     var material;
     var texture = new THREE.TextureLoader().load(snakeSkin);
-    
-
     for (let i=0; i < 10; i+=0.15){
 
         if (i==0){
@@ -310,22 +308,18 @@ function animate() {
             if (food.position.z < -4){
                 food.visible = true;
                 food.position.z += getRandomInt(30,100);
-                
             }
-
             let in_collision_range =
                 Math.abs(food.position.x - head.position.x) < 0.7 &&
                 Math.abs(food.position.z - head.position.z) < 0.7;
-
                 if (in_collision_range) {
                     if (food.visible){
                         score += 1;
                         bodyparts[score].visible = true;
                         food.visible = false;
-                    }
-                    document.getElementById("scoreLife").innerHTML = "Score: " + score + " Lives left: "+ life;
-                    
-                } else {score = score
+                    } document.getElementById("scoreLife").innerHTML = "Score: " + score + " Lives left: "+ life;
+                } else { 
+                    score = score
                     document.getElementById("scoreLife").innerHTML = "Score: " + score + " Lives left: "+ life;
                 }
             }
