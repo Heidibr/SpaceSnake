@@ -27,14 +27,11 @@
       #restart, #clickMouse, .instructionText, #finalScore {
         font-size: 25px;
       }
-
-     
       #clickMouse {
         padding-top: 20px;
         text-decoration: underline;
         cursor: pointer;
       }
-
       #gameoverDiv, #instructions, #header{
         margin: auto;
         width: 100%;
@@ -42,17 +39,13 @@
         text-align: center;
         font-size: 50px;
         align-content: space-between;
-        padding-top: 250px;
-        
+        padding-top: 250px; 
       }
-
       #header{
         padding-top: 5px;
         font-size: 50px;
         font-weight: 400;
       }
-
-
     </style>
   </head>
   <body>
@@ -60,15 +53,18 @@
       <h1 id = "spaceSnake">SPACE SNAKE</h1>
     </div>
     <h1 style= "z-index:10; position: fixed;"id = 'scoreLife'>score life</h1>
-    <div id = 'gameoverDiv' style= "z-index:100; position: fixed;"><p id='gameOverText'> GAME OVER</p><p id= "finalScore" >score: </p> <p id='restart'> Press space to play again.</p></div>
+    <div id = 'gameoverDiv' style= "z-index:100; position: fixed;">
+      <p id='gameOverText'> GAME OVER</p>
+      <p id= "finalScore" >score: </p> 
+      <p id='restart'> Press space to play again.</p>
+    </div>
     <div id = 'instructions' style= "z-index:100; position: fixed;">
       <p class = "instructionText"> Eat all the yellow suns to make the snake grow, and avoid the moontrees.</p> 
       <p class = "instructionText" >Use they arrow keys, left and right, to control the snake.</p>
-      <p id='clickMouse' onclick = "handleclick(this)"> Click here to start</p></div>
+      <p id='clickMouse' onclick = "handleclick(this)"> Click here to start</p>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.0/tween.umd.js"></script>
-
     <script src="main.js"></script>
-    
   </body>
 </html>
