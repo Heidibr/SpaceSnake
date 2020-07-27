@@ -1,5 +1,6 @@
-# final-project-finalprojecthlb
+# SpaceSnake
 
 
-## Demo of the project
-https://sapienzainteractivegraphicscourse.github.io/final-project-finalprojecthlb/
+## Demo
+
+https://heidibr.github.io/SpaceSnake/
