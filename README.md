@@ -1,5 +1,5 @@
-# final-project-finalprojecthlb
+# SaceSnake
 
 
-## Demo of the project
-https://sapienzainteractivegraphicscourse.github.io/final-project-finalprojecthlb/
+## Demo
+
