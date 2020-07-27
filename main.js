@@ -1,10 +1,14 @@
+//When you want to run the project locally, uncomment and start an HTTP server on port 8000
 /*const URL = 'http://localhost:8000';
 let star = `${URL}/assets/textures/starsBackground.jpg`;
-let snakeSkin = `${URL}/assets/textures/greenSnakeSkin.svg`;*/
+let snakeSkin = `${URL}/assets/textures/greenSnakeSkin.svg`;
+let moon = `${URL}/assets/textures/moon_1024.jpg`*/
 
 let star = `assets/textures/starsBackground.jpg`;
 let snakeSkin = `assets/textures/greenSnakeSkin.svg`;
 let moon = `assets/textures/moon_1024.jpg`
+
+
 let scene, camera, renderer, cube, sphere, snake, group, body, head, bodypart;
 let foodBall, ground, plane ;
 
